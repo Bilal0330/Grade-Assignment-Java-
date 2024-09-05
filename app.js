@@ -2,19 +2,19 @@
 
 var userName = prompt("Insert you name :");
 var rollNo = prompt("Insert you Roll No :");
-var english = +prompt("Insert you English Marks :");
-var urdu = +prompt("Insert you Urdu Marks :");
-var physics = +prompt("Insert you Physics Marks :");
-var chemistry = +prompt("Insert you chemistry Marks :");
-var mathematics = +prompt("Insert you Mathematics Marks :");
+var accounting = +prompt("Insert you English Marks :");
+var economic = +prompt("Insert you Urdu Marks :");
+var bmathematics  = +prompt("Insert you Physics Marks :");
+var pst = +prompt("Insert you chemistry Marks :");
+var english = +prompt("Insert you Mathematics Marks :");
 
 
-var total = english + urdu + physics + chemistry + mathematics;
+var total = accounting + economic + bmathematics + pst + english;
 var percentage = (total / 500) * 100;
 
 
 var grade;
-if (percentage >= 90 && percentage < 101) {
+if (percentage >= 90 && percentage < 100) {
     grade = 'A+';
 }
 
