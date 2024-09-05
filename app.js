@@ -2,11 +2,11 @@
 
 var userName = prompt("Insert you name :");
 var rollNo = prompt("Insert you Roll No :");
-var accounting = +prompt("Insert you English Marks :");
-var economic = +prompt("Insert you Urdu Marks :");
-var bmathematics  = +prompt("Insert you Physics Marks :");
-var pst = +prompt("Insert you chemistry Marks :");
-var english = +prompt("Insert you Mathematics Marks :");
+var accounting = +prompt("Insert you accounting Marks :");
+var economic = +prompt("Insert you econmic Marks :");
+var bmathematics  = +prompt("Insert you bmathematics Marks :");
+var pst = +prompt("Insert you pst Marks :");
+var english = +prompt("Insert you english Marks :");
 
 
 var total = accounting + economic + bmathematics + pst + english;
